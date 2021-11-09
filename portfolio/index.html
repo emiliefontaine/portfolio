@@ -26,7 +26,7 @@
               vidéo, audio et photo </div> </div> <div class=empty> </div>
             <div class="intro--voirprojets">
               <div> Voir mes projets </div>
-              <button class="voirplus" onclick="location.href='/#section2'"><a class="begone" href="#section2">.</a></button>   
+              <button class="voirplus" onclick="$('html').animate({scrollTop: $('#section2').offset().top}, 500);"></button>   
             </div>
           <div class="intro--squares"> </div> 
           <div class="intro--squares2"> </div>
@@ -133,13 +133,14 @@
           514 567 2133</p> </div>
           <br> 
           <div class="footer"> psss il n'y a plus rien ici <br> veux
-          tu revenir en haut? <button class="voirplus2" onclick="$('html').animate({scrollTop: 0}, 500);"> <a class="begone" href="#section1">.</a></button> </div>
+          tu revenir en haut? <button class="voirplus2" onclick="$('html').animate({scrollTop: 0}, 500);"></button> </div>
       </div>
     </div>
     
     
-<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+
 <script type="module" src="/main.js"></script>
 <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </body>
 </html>
