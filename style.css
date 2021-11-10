@@ -363,6 +363,11 @@ img {
         top: 0%;
         border: none;
    }
+
+   .card .card-header {
+    height:50vw;
+
+}
     .swiper-container {
         width: 55vw;
         height: 35vw;
