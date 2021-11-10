@@ -365,12 +365,12 @@ img {
    }
 
    .card .card-header {
-    height:50vw;
+    height:100vw;
 
 }
     .swiper-container {
-        width: 55vw;
-        height: 35vw;
+        width: 90vw;
+        height: 55vw;
    }
     .swiper-button-prev {
         display: none;
