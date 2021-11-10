@@ -1,4 +1,4 @@
-import './style.scss'
+console.log("Hello world!");
 
 const swiper = new Swiper('.swiper-container', {
   // Optional parameters
@@ -15,3 +15,4 @@ const swiper = new Swiper('.swiper-container', {
   },
 
   });  
+
