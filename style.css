@@ -382,3 +382,8 @@ img {
         width: 100%;
    }
 }
+
+
+@media screen and (min-height: 1100px) {
+    .allthesquares {display:none;}
+    }
